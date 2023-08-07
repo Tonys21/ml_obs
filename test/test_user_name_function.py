@@ -1,7 +1,7 @@
 # test_user_name_function.py
 import pytest
 import io
-from src.user_name_function import *
+from src.user_name_function import get_user_name_from_input
 
 ## Must test if "not empty" and if "no space"
 

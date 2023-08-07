@@ -1,7 +1,7 @@
 # test_user_password_function.py
 import pytest
 import io
-from src.user_password_function import *
+from src.user_password_function import get_password_from_input
 
 
 ## Must test if "at least 8 characters", "at least 1 special character", "at least 1 letter" and "at least one letter"
